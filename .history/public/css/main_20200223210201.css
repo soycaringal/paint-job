@@ -1,0 +1,195 @@
+/* GLOBAL */
+
+body {
+    color: #212121;
+    font-family: Arial;
+}
+
+header {
+    margin-top: 40px;
+}
+
+header .jumbotron {
+    background-color: #ededed;
+    border-radius: 0;
+    height: 150px;
+    margin-bottom: 0;
+}
+
+header h1 {
+    color: #656565;
+    font-family: 'arial';
+    font-size: 38px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer {
+    height: 100px;
+}
+
+.car-container {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.navbar {
+    background-color: #e9695b;
+    height: 30px;
+    font-size: 12px;
+}
+
+.navbar .nav-item a {
+    color: #333333;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+    border-bottom: 2px solid #333;
+    padding-bottom: 4px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.paint-job-title h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 28px;
+    text-align: center;
+}
+
+/* ------- Create Job Page ----------*/
+
+.create-jobs-content .paint-job-images {
+    margin-top: 30px;
+}
+
+.create-jobs-content .paint-job-images figure {
+    text-align: center;
+}
+
+.create-jobs-content .car-details {
+    color: #212121;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+.create-jobs-content .car-details h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.create-jobs-content .car-details button {
+    background-color: #e9695b;
+    border-radius: 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    width: 150px;
+}
+
+.create-jobs-content .current-color {
+    margin-left: 90px;
+}
+
+.create-jobs-content .target-color {
+    margin-right: 90px;
+}
+
+.create-jobs-content .arrow {
+    margin-top: 62px;
+}
+
+/* ------- Paint Jobs Page ----------*/
+.paint-jobs-content {
+    font-size: 14px;
+}
+
+.paint-jobs-content h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-left: 14px;
+}
+
+.paint-jobs-content .table .thead th, .paint-jobs-content .table tbody td {
+    font-weight: normal;
+    height: 30px;
+    padding: .3em;
+    padding-left: 10px;
+}
+
+.paint-jobs-content .table .thead {
+    background-color: #dddddd;
+    height: 30px;
+}
+
+.paint-jobs-content .car-performance .table .thead th {
+    font-weight: bold;
+}
+
+.paint-jobs-content .car-performance .card-header {
+    background-color: #e9695b;
+    border-radius: 0;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+    padding: 0.4rem;
+    padding-left: 14px;
+}
+
+.paint-jobs-content .car-performance .card-body {
+    background-color: #ededed;
+}
+
+.paint-jobs-content .car-in-progress tbody a {
+    color: #e9695b;
+    font-weight: bold;
+}
+
+.paint-jobs-content .car-in-progress tbody td:nth-child(2), 
+.paint-jobs-content .car-in-progress tbody td:nth-child(3), 
+.paint-jobs-content .car-queue tbody td:nth-child(2), 
+.paint-jobs-content .car-queue tbody td:nth-child(3) {
+    text-transform: capitalize;
+}
+
+.paint-jobs-content .car-in-progress, .paint-jobs-content .car-queue {
+    width: 535px;
+}
+
+.paint-jobs-content .car-performance {
+    margin-left: 30px;
+    margin-top: 19px;
+    width: 235px;
+}
+
+.paint-jobs-content .paint-jobs-wrapper {
+    display: flex;
+    margin-top: 35px;
+}
+
+.paint-jobs-content .car-performance-rows tr td:nth-child(2) {
+    font-weight: bold;
+}
+
+.paint-jobs-content .car-performance .total {
+    float: right;
+    font-weight: bold;
+}
+
+.paint-jobs-content .car-performance .car-colors {
+    margin-left: 20px;
+}
+
+.paint-jobs-content .car-performance p {
+    margin-bottom: 0;
+}
+
+.paint-jobs-content .car-performance .card {
+    border: none;
+}

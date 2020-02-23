@@ -1,0 +1,27 @@
+body {
+    font-family: Arial Bold;
+}
+header {
+    margin-top: 40px;
+}
+
+header .jumbotron {
+    border-radius: 0;
+    background-color: #ededed;
+}
+
+.car-container {
+    margin: 0 200px;
+}
+
+header h1 {
+    font-family: 'arial';
+    font-weight: bold;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #656565;
+}
+
+.navbar {
+    /* background-color: #e9695b; */
+}

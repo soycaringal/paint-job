@@ -1,0 +1,10 @@
+header {
+    margin-top: 40px;
+}
+header h1 {
+    font-family: 'arial';
+    font-weight: bold;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #656565;
+}
