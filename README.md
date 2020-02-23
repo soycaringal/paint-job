@@ -9,7 +9,7 @@ composer install
 # Create file .env
 cp .env.example .env
 
-update database credentials in .env file
+create database first then update database credentials in .env file
 
 # Generate key
 php artisan key:generate
